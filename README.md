@@ -6,6 +6,8 @@ Private Bootneck Company Milsim Modding source repository for **BCM Conflict Cor
 
 ## Continue on another PC
 
+For Codex, start with the [dedicated-server handover prompt](docs/CODEX_HANDOVER.md).
+
 1. Sign into GitHub with an account that can access this private organisation repository.
 2. Install Git, Python 3.10+ and matching stable Arma Reforger / Arma Reforger Tools (target API: 1.8). Native game data is external, supplied by your own installation.
 3. Clone the repository into a folder **outside** any active addon or publication folder:
