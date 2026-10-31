@@ -1,0 +1,8 @@
+GenericEntity TB_CC_M4XP_INTEGRATED_PROOF {
+ components {
+  TB_CC_M4XP_IntegratedProofComponent "{A4F4200000000002}" {
+   m_iMode 2
+  }
+ }
+ coords 2000 20 2000
+}

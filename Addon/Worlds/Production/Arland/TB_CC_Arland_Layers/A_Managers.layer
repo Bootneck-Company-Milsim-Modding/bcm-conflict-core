@@ -1,0 +1,198 @@
+SCR_AIWorld SCR_AIWorld : "{E0A05C76552E7F58}Prefabs/AI/SCR_AIWorld.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{6A8460B71430EF83}" {
+     NavmeshFile "{E0E9D55644237D27}worlds/MP/Navmeshes/CTI_Campaign_Arland.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60CA9BE5536BF701}" {
+     NavmeshFile "{3B27B3547843CC74}worlds/MP/Navmeshes/CTI_Campaign_Arland_vehicles.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5C8C9B750D124A63}" {
+   NavmeshSettings NavmeshWorld "{5C8C9B750B60C6E2}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{5C90BD0EC793647D}" {
+     NavmeshFile "{804386FFEB7B7EFD}worlds/MP/Navmeshes/LowResArland.nmn"
+    }
+   }
+  }
+ }
+ coords 1891.659 11.576 1823.161
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "SCR_AIWorld: "\
+   "Configure navigation mesh"
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+PerceptionManager PerceptionManager : "{028DAEAD63E056BE}Prefabs/World/Game/PerceptionManager.et" {
+ coords 1891.659 11.438 1822.161
+}
+SCR_GameModeCampaign GameMode_Campaign : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ components {
+  SCR_CacheManagerComponent "{691E6E472CBA6978}" {
+   m_sTerrainConfig "{8E573788A979EBAB}Configs/Campaign/CampaignCachePool/CampaignCachePool_Arland.conf"
+  }
+  SCR_EditorCameraDefaultsComponent "{6A866ECD5E0BF87E}" {
+  }
+  SCR_EditorRespawnBriefingComponent "{6A866ECD643CCFC5}" {
+   m_Info SCR_FormatUIInfo "{6A866ECEFF402E2C}" {
+    Icon "{1CD65C97061661F6}UI/Textures/Editor/Logos/Editor-Logo.imageset"
+    IconSetName "Logo_Editor"
+    m_aDescriptionBlocks {
+     SCR_SubBlockUIName "{6A866ECE85FBF440}" {
+      Name "#AR-EditorRespawnBriefing_Description_1"
+     }
+     SCR_SubBlockUIName "{6A866ECE87B178DF}" {
+      Name "<br/>"
+     }
+     SCR_SubBlockUIName "{6A866ECE80F097E2}" {
+      Name "#AR-EditorRespawnBriefing_Description_2"
+     }
+     SCR_SubBlockUIName "{6A866ECE81E0967F}" {
+      Name "<br/>"
+     }
+     SCR_ActionBlockUIName "{6A866ECE8C270D62}" {
+      Name "#AR-EditorRespawnBriefing_Description_4"
+      m_iDevice "Mouse & Keyboard"
+      m_sActionName "ShowScoreboard"
+     }
+     SCR_ActionBlockUIName "{6A866ECE8DAD8B28}" {
+      Name "#AR-EditorRespawnBriefing_Description_5"
+      m_iDevice Gamepad
+      m_sActionName "MenuOpen"
+     }
+    }
+   }
+   m_InfoGameMaster SCR_FormatUIInfo "{6A866ECED9FC2527}" {
+    Icon "{1CD65C97061661F6}UI/Textures/Editor/Logos/Editor-Logo.imageset"
+    IconSetName "Logo_Editor"
+    m_aDescriptionBlocks {
+     SCR_SubBlockUIName "{6A866ECFE56EA726}" {
+      Name "#AR-EditorRespawnBriefing_Description_GameMaster_1"
+     }
+     SCR_SubBlockUIName "{6A866ECFE6AD5956}" {
+      Name "<br/>"
+     }
+     SCR_SubBlockUIName "{6A866ECFE7FD4D1E}" {
+      Name "#AR-EditorRespawnBriefing_Description_GameMaster_2"
+     }
+    }
+   }
+   m_InfoHost SCR_FormatUIInfo "{6A866ECECFEFC86D}" {
+    Icon "{1CD65C97061661F6}UI/Textures/Editor/Logos/Editor-Logo.imageset"
+    IconSetName "Logo_Editor"
+    m_aDescriptionBlocks {
+     SCR_SubBlockUIName "{6A866ECFCCF35F4B}" {
+      Name "#AR-EditorRespawnBriefing_Description_1"
+     }
+     SCR_SubBlockUIName "{6A866ECFCE6FA0DE}" {
+      Name "<br/>"
+     }
+     SCR_SubBlockUIName "{6A866ECFCF499AAE}" {
+      Name "#AR-EditorRespawnBriefing_Description_2"
+     }
+    }
+   }
+  }
+ }
+ coords 1891.659 11.326 1821.161
+ m_bSpawnRandomCaches 1
+ {
+  SCR_EditorSettingsEntity {
+   ID "60DEAC2AD2AE44AD"
+   m_bIsUnlimitedEditorLegal 0
+   m_SkipStreamingRules {
+   }
+  }
+ }
+}
+RadioManagerEntity : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 2044.134 44.998 2065.301
+}
+SCR_CampaignFactionManager CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 1891.659 11.714 1824.161
+ Factions {
+  SCR_CampaignFaction "{50B30C3AF4BFD934}" {
+   m_aFriendlyFactionsIds {
+    "USSR"
+   }
+   m_sParentFactionId ""
+  }
+  SCR_CampaignFaction "{50B30C3ADB052C80}" {
+   m_aFriendlyFactionsIds {
+    "US"
+   }
+   m_sParentFactionId ""
+  }
+  SCR_CampaignFaction "{56F0C3A6336375DC}" {
+   m_iPlayerLimit 0
+   m_bIsPlayable 0
+   m_bCanCaptureBases 1
+   m_eShowInWelcomeScreenOverride NONE
+   m_aFriendlyFactionsIds {
+    "FIA"
+   }
+   m_sParentFactionId ""
+  }
+ }
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "CampaignFactionManager: "\
+   "Make sure one faction is non-playable to use for Independent units."
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+ScriptedChatEntity : "{536D80EB494DDC43}Prefabs/MP/Campaign/CampaignMPChatEntity.et" {
+ coords 2044.812 45.207 2065.896
+}
+GenericEntity TB_CC_NATIVE_ARLAND_CAMPAIGN {
+ components {
+  TB_CC_M4XP_NativeArlandComponent "{A4F3300000000001}" {
+   m_iCampaignSeed 20
+   m_iStartMode 1
+   m_sExplicitMobId "ARLAND::HQ_EAST"
+   m_bEnableM3Coordinator 1
+   m_bEnableM3Garrison 1
+   m_iAuthorityProofMode 0
+   m_iBLUFORVictoryHoldSeconds 300
+   m_iOPFORVictoryHoldSeconds 300
+  }
+ }
+ coords 2000 20 2000
+}
+GenericEntity ConflictMilitaryBase : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ coords 1891.659 12.065 1827.161
+ {
+  CommentEntity {
+   coords 0 1 0
+   m_Comment "ConflictMilitaryBase: "\
+   "At least two bases need \"Can be HQ\" param checked. Place bases and control points wherever you wish."
+   m_Color 0 0 0
+   m_FaceCamera 1
+   m_TextBackground 1
+   m_BackgroundColor 1 0.6 0
+   m_BackgroundTransparency 0
+  }
+ }
+}
+SCR_LoadoutManager CampaignLoadoutManager : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 1891.659 11.959 1826.161
+}

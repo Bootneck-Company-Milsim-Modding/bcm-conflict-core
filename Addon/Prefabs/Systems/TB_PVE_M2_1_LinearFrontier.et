@@ -1,0 +1,20 @@
+GenericEntity {
+ ID "A210000000000001"
+ components {
+  TB_PVE_M2_1_LinearFrontierComponent "{A210000000000002}" {
+   m_aRouteEntityNames {
+    "TB_M2_1_MOB"
+    "TB_M2_1_OBJ_01"
+    "TB_M2_1_OBJ_02"
+    "TB_M2_1_OBJ_03"
+   }
+   m_aRouteObjectiveIds {
+    "MOB"
+    "OBJ_01"
+    "OBJ_02"
+    "OBJ_03"
+   }
+   m_bRunVerticalSliceProof 1
+  }
+ }
+}

@@ -1,0 +1,9 @@
+GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ ID "7D44D0B18F11C1C2"
+ components {
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_bIgnoreNonPlayableAttackers 0
+   m_bCapturingRequiresPlayer 0
+  }
+ }
+}

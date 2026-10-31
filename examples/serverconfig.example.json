@@ -1,0 +1,40 @@
+{
+  "bindAddress": "0.0.0.0",
+  "bindPort": 2001,
+  "publicAddress": "<OVH_PUBLIC_IPV4>",
+  "publicPort": 2001,
+  "a2s": {
+    "address": "0.0.0.0",
+    "port": 17777
+  },
+  "rcon": {
+    "address": "127.0.0.1",
+    "port": 19999,
+    "password": "<UNIQUE_RCON_SECRET_WITHOUT_SPACES>",
+    "permission": "admin"
+  },
+  "game": {
+    "name": "BCM Conflict Core - Dedicated Acceptance",
+    "password": "<UNIQUE_TEST_JOIN_SECRET>",
+    "passwordAdmin": "<UNIQUE_GAME_ADMIN_SECRET>",
+    "admins": [],
+    "scenarioId": "{A4F3500000000000}Missions/Production/TB_CC_Arland.conf",
+    "maxPlayers": 2,
+    "visible": false,
+    "crossPlatform": false,
+    "gameProperties": {
+      "fastValidation": true,
+      "battlEye": true
+    },
+    "mods": [
+      {
+        "modId": "6A6A5973FA53A5B1",
+        "name": "BCM Conflict Core",
+        "version": "<VERIFIED_NEW_WORKSHOP_VERSION>"
+      }
+    ]
+  },
+  "operating": {
+    "disableAI": false
+  }
+}

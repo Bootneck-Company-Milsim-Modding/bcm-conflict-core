@@ -1,0 +1,91 @@
+$grp GenericEntity : "{7D44D0B18F11C1C1}Prefabs/Systems/MilitaryBase/TB_PVE_ConflictMilitaryBase.et" {
+ TB_M2_1_MOB {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "US"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bIsControlPoint 0
+    m_bCanBeHQ 1
+    m_sBaseName "TB BLUFOR MOB"
+    m_sBaseNameUpper "TB BLUFOR MOB"
+    m_sMapLocationName "TB BLUFOR MOB"
+   }
+  }
+  coords 4400 20 11200
+  {
+   GenericEntity { ID "A211000000000001" coords 0 0 12 }
+   GenericEntity { ID "A211000000000002" coords 0 0 14 }
+  }
+ }
+}
+
+$grp GenericEntity : "{A13D000000000000}Prefabs/Systems/MilitaryBase/TB_PVE_M1_3_NoPlayerDeploymentBase.et" {
+ TB_M2_1_OBJ_01 {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bIsControlPoint 0
+    m_bCanBeHQ 0
+    m_sBaseName "TB Objective 01"
+    m_sBaseNameUpper "TB OBJECTIVE 01"
+    m_sMapLocationName "TB Objective 01"
+   }
+  }
+  coords 4680 28.281 11947.7
+  {
+   GenericEntity { ID "A211000000000011" coords 0 0 12 }
+   GenericEntity { ID "A211000000000012" coords 0 0 14 }
+  }
+ }
+ TB_M2_1_OBJ_02 {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bIsControlPoint 0
+    m_bCanBeHQ 0
+    m_sBaseName "TB Objective 02"
+    m_sBaseNameUpper "TB OBJECTIVE 02"
+    m_sMapLocationName "TB Objective 02"
+   }
+  }
+  coords 5200 28.281 11900
+  {
+   GenericEntity { ID "A211000000000021" coords 0 0 12 }
+   GenericEntity { ID "A211000000000022" coords 0 0 14 }
+  }
+ }
+ TB_M2_1_OBJ_03 {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "USSR"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bIsControlPoint 0
+    m_bCanBeHQ 0
+    m_sBaseName "TB Objective 03"
+    m_sBaseNameUpper "TB OBJECTIVE 03"
+    m_sMapLocationName "TB Objective 03"
+   }
+  }
+  coords 5900 28.281 11900
+  {
+   GenericEntity { ID "A211000000000031" coords 0 0 12 }
+   GenericEntity { ID "A211000000000032" coords 0 0 14 }
+  }
+ }
+}
+
+$grp GenericEntity : "{A210000000000000}Prefabs/Systems/TB_PVE_M2_1_LinearFrontier.et" {
+ TB_M2_1_LinearFrontier {
+  coords 4700 30 11900
+ }
+}

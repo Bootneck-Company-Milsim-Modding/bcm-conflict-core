@@ -1,0 +1,8 @@
+GenericEntity TB_CC_M4XP_CORRECTIVE_PROOF {
+ components {
+  TB_CC_M4XP_IntegratedProofComponent "{A4F4200000000007}" {
+   m_iMode 7
+  }
+ }
+ coords 2000 20 2000
+}

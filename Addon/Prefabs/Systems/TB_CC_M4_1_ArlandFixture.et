@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "A410000000000001"
+ components {
+  TB_CC_M4_1_ProofComponent "{A410000000000002}" {
+  }
+  TB_CC_M4_2_ArlandSurveyComponent "{A410000000000003}" {
+  }
+  TB_CC_M4_2_ProductionGraphProofComponent "{A410000000000004}" {
+  }
+  TB_CC_M4_2A_ProofComponent "{A410000000000005}" {
+  }
+  TB_CC_M4_3_StrategicEvaluatorProofComponent "{A410000000000006}" {
+  }
+ }
+}

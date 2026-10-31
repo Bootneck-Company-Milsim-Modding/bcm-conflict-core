@@ -1,0 +1,7 @@
+MetaFileClass {
+ Name "{A210000000000000}Prefabs/Systems/TB_PVE_M2_1_LinearFrontier.et"
+ Configurations {
+  EntityResourceClass PC {
+  }
+ }
+}

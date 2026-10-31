@@ -1,0 +1,138 @@
+$grp GenericEntity : "{A449100000000000}Prefabs/Systems/MilitaryBase/TB_CC_M4_4I_StrategicCapture.et" {
+ TB_CC_NATIVE_TB_CC_BeauregardHarbour {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Beauregard Harbour"
+    m_sBaseNameUpper "BEAUREGARD HARBOUR"
+    m_sMapLocationName "Beauregard Harbour"
+   }
+  }
+  coords 3112.44 44.02 2419.688
+  angles 0 -24.598 0
+ }
+ TB_CC_NATIVE_TB_CC_SignalHill {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Signal Hill"
+    m_sBaseNameUpper "SIGNAL HILL"
+    m_sMapLocationName "Signal Hill"
+   }
+  }
+  coords 2527.11 144.445 2286.73
+  angles -2.745 77.846 4.242
+ }
+ TB_CC_NATIVE_TB_CC_NorthRunway {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Northern Runway"
+    m_sBaseNameUpper "NORTHERN RUNWAY"
+    m_sMapLocationName "Northern Runway"
+   }
+  }
+  coords 1675.29 37.915 3017.612
+  angles -1.482 164.346 1.344
+ }
+ TB_CC_NATIVE_TB_CC_GullIsland {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Gull Island"
+    m_sBaseNameUpper "GULL ISLAND"
+    m_sMapLocationName "Gull Island"
+   }
+  }
+  coords 962.309 31.444 1395.995
+  angles 0 -76.82 0
+ }
+}
+$grp GenericEntity : "{A4F2100000000000}Prefabs/Systems/MilitaryBase/TB_CC_StrategicBase.et" {
+ TB_CC_NATIVE_MossHill {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Moss Hill"
+    m_sBaseNameUpper "MOSS HILL"
+    m_sMapLocationName "Moss Hill"
+   }
+  }
+  coords 2292.76 89.208 1223.62
+ }
+ TB_CC_NATIVE_MilitarySouth {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Military South"
+    m_sBaseNameUpper "MILITARY SOUTH"
+    m_sMapLocationName "Military South"
+   }
+  }
+  coords 1413.43 10.959 1857.55
+ }
+ TB_CC_NATIVE_ArlevilleBase {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Arleville"
+    m_sBaseNameUpper "ARLEVILLE"
+    m_sMapLocationName "Arleville"
+   }
+  }
+  coords 2727.07 77.531 1680.72
+ }
+ TB_CC_NATIVE_BeauregardBase {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Beauregard"
+    m_sBaseNameUpper "BEAUREGARD"
+    m_sMapLocationName "Beauregard"
+   }
+  }
+  coords 3297.47 2 2860.18
+ }
+ TB_CC_NATIVE_Farm {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Farm"
+    m_sBaseNameUpper "FARM"
+    m_sMapLocationName "Farm"
+   }
+  }
+  coords 2208.91 53.814 2909.47
+ }
+ TB_CC_NATIVE_AirportNorth {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "FIA"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Airport North"
+    m_sBaseNameUpper "AIRPORT NORTH"
+    m_sMapLocationName "Airport North"
+   }
+  }
+  coords 946.642 38.24 2895.52
+ }
+}

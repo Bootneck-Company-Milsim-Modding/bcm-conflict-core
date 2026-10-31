@@ -1,0 +1,49 @@
+GenericEntity TB_M4_4_ARLAND_GRAPH_CAMPAIGN : "{A440000000000000}Prefabs/Systems/TB_CC_M4_4_ArlandGraphCampaign.et" {
+ coords 2000 20 2000
+}
+$grp GenericEntity : "{A449100000000000}Prefabs/Systems/MilitaryBase/TB_CC_M4_4I_StrategicCapture.et" {
+ TB_CC_BeauregardHarbour {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Beauregard Harbour"
+    m_sBaseNameUpper "BEAUREGARD HARBOUR"
+    m_sMapLocationName "Beauregard Harbour"
+   }
+  }
+  coords 3107.744 44.02 2413.332
+  angles 0 -24.598 0
+ }
+ TB_CC_SignalHill {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Signal Hill"
+    m_sBaseNameUpper "SIGNAL HILL"
+    m_sMapLocationName "Signal Hill"
+   }
+  }
+  coords 2527.11 144.445 2286.73
+  angles -2.745 77.846 4.242
+ }
+ TB_CC_NorthRunway {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Northern Runway"
+    m_sBaseNameUpper "NORTHERN RUNWAY"
+    m_sMapLocationName "Northern Runway"
+   }
+  }
+  coords 1675.29 37.915 3017.612
+  angles -1.482 164.346 1.344
+ }
+ TB_CC_GullIsland {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_sBaseName "Gull Island"
+    m_sBaseNameUpper "GULL ISLAND"
+    m_sMapLocationName "Gull Island"
+   }
+  }
+  coords 962.309 31.444 1395.995
+  angles 0 -76.82 0
+ }
+}

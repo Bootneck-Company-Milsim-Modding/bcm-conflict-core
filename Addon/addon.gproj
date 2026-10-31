@@ -1,0 +1,8 @@
+GameProject {
+ ID "BCMConflictCore"
+ GUID "6A6A5973FA53A5B1"
+ TITLE "BCM Conflict Core"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

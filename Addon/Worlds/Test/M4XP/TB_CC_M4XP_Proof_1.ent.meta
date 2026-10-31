@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{A4F4000000000001}Worlds/Test/M4XP/TB_CC_M4XP_Proof_1.ent"
+ Configurations {
+  ENTResourceClass PC {}
+  ENTResourceClass XBOX_ONE : PC {}
+  ENTResourceClass XBOX_SERIES : PC {}
+  ENTResourceClass PS4 : PC {}
+  ENTResourceClass PS5 : PC {}
+  ENTResourceClass HEADLESS : PC {}
+ }
+}

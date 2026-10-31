@@ -1,0 +1,6 @@
+GenericEntity TB_CC_M4X_AUDIT {
+ components {
+  TB_CC_M4X_DependencyAuditComponent "{A4F1000000000001}" {}
+ }
+ coords 2000 20 2000
+}

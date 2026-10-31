@@ -1,0 +1,6 @@
+GenericEntity TB_CC_M4X_PHYSICAL_PROOF {
+ components {
+  TB_CC_M4X_PhysicalProofComponent "{A4F2400000000001}" {}
+ }
+ coords 2000 20 2000
+}

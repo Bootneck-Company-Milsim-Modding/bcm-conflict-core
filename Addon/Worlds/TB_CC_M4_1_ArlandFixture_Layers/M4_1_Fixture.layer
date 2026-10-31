@@ -1,0 +1,18 @@
+$grp GenericEntity : "{A13D000000000000}Prefabs/Systems/MilitaryBase/TB_PVE_M1_3_NoPlayerDeploymentBase.et" {
+ TB_M4_1_ARLAND_MOB {
+  components { SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" { "faction affiliation" "US" } SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" { m_iRadius 100 m_bIsControlPoint 0 m_bCanBeHQ 0 m_sBaseName "M4.1 Arland Fixture MOB" m_sBaseNameUpper "M4.1 ARLAND FIXTURE MOB" m_sMapLocationName "M4.1 Arland Fixture MOB" } }
+  coords 1150 12 2250 { GenericEntity { ID "A411000000000011" coords 0 0 12 } GenericEntity { ID "A411000000000012" coords 0 0 14 } }
+ }
+ TB_M4_1_ARLAND_CENTRAL {
+  components { SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" { "faction affiliation" "USSR" } SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" { m_iRadius 100 m_bIsControlPoint 0 m_bCanBeHQ 0 m_sBaseName "M4.1 Arland Fixture Central" m_sBaseNameUpper "M4.1 ARLAND FIXTURE CENTRAL" m_sMapLocationName "M4.1 Arland Fixture Central" } }
+  coords 1900 12 1820 { GenericEntity { ID "A411000000000021" coords 0 0 12 } GenericEntity { ID "A411000000000022" coords 0 0 14 } }
+ }
+ TB_M4_1_ARLAND_PORT {
+  components { SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" { "faction affiliation" "USSR" } SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" { m_iRadius 100 m_bIsControlPoint 0 m_bCanBeHQ 0 m_sBaseName "M4.1 Arland Fixture Port" m_sBaseNameUpper "M4.1 ARLAND FIXTURE PORT" m_sMapLocationName "M4.1 Arland Fixture Port" } }
+  coords 2700 12 1250 { GenericEntity { ID "A411000000000031" coords 0 0 12 } GenericEntity { ID "A411000000000032" coords 0 0 14 } }
+ }
+}
+
+$grp GenericEntity : "{A410000000000000}Prefabs/Systems/TB_CC_M4_1_ArlandFixture.et" {
+ TB_M4_1_ARLAND_PROOF { coords 1900 12 1820 }
+}

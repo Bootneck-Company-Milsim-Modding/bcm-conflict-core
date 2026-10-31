@@ -1,0 +1,8 @@
+GenericEntity TB_CC_M4X_PRESSURE_PROOF {
+ components {
+  TB_CC_M4X_PhysicalProofComponent "{A4F2500000000001}" {
+   m_bPressureOnly 1
+  }
+ }
+ coords 2000 20 2000
+}

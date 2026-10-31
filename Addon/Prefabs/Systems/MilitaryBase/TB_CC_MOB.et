@@ -1,0 +1,12 @@
+GenericEntity : "{3772B47BCF3C62FB}Prefabs/Systems/MilitaryBase/ConflictBase_MOB.et" {
+ ID "A4F2000000000001"
+ components {
+  SCR_FactionAffiliationComponent "{621EB97024DABA88}" {
+   "faction affiliation" "US"
+  }
+  SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+   m_bDisableWhenUnusedAsHQ 0
+   m_bIsControlPoint 0
+  }
+ }
+}

@@ -1,0 +1,909 @@
+{
+  "createdDate": "2026-10-31",
+  "source": "Original BCM Conflict Core working project; no runtime files edited",
+  "projectId": "BCMConflictCore",
+  "modGuid": "6A6A5973FA53A5B1",
+  "scenarioId": "{A4F3500000000000}Missions/Production/TB_CC_Arland.conf",
+  "files": [
+    {
+      "path": "Addon/addon.gproj",
+      "bytes": 129,
+      "sha256": "d954d50e800670dc6fe90062f9412fb791a63d314dec5d7f30f341130fd2e80c"
+    },
+    {
+      "path": "Addon/Missions/Production/TB_CC_Arland.conf",
+      "bytes": 410,
+      "sha256": "b85861ebe5621238b69cde81985b792aed4e2e197bb075f6366866641898f42c"
+    },
+    {
+      "path": "Addon/Missions/Production/TB_CC_Arland.conf.meta",
+      "bytes": 82,
+      "sha256": "c835ac08a6a72b4c4273bf5f0e11c9fb013ed9879c20d98b3c3aaf185ef2ed31"
+    },
+    {
+      "path": "Addon/Missions/TB_CC_M4_1_ArlandFixture.conf",
+      "bytes": 289,
+      "sha256": "3959845a882c7ae0c281a3e757c1087a159aae3d9831c33e6d116fc7b868cf1f"
+    },
+    {
+      "path": "Addon/Missions/TB_CC_M4_1_ArlandFixture.conf.meta",
+      "bytes": 83,
+      "sha256": "73a58bb2aa49878fc05bdd919a1347b7168f3223eeba91b68f9831c9a795dcac"
+    },
+    {
+      "path": "Addon/Missions/TB_CC_M4_4_ArlandGraphCampaign.conf",
+      "bytes": 405,
+      "sha256": "b2ba938879efc6714430313c8dd84a33e8276bb5e20679719d2fe7342e4810ad"
+    },
+    {
+      "path": "Addon/Missions/TB_CC_M4_4_ArlandGraphCampaign.conf.meta",
+      "bytes": 89,
+      "sha256": "3e6579dd1f553063f48e4935475988b3534abbd11085127435fd0580911fe966"
+    },
+    {
+      "path": "Addon/Missions/TB_CC_M4X_NativePrototype.conf",
+      "bytes": 306,
+      "sha256": "c5606c3263e9633ec30c49c2a034b7d4a4151fe3b31e0320cf51907ad2bfdd5a"
+    },
+    {
+      "path": "Addon/Missions/TB_CC_M4X_NativePrototype.conf.meta",
+      "bytes": 84,
+      "sha256": "0bfef95bf0ee154c51c88c9598d5687acc4f500389f3df6e0d51c0973a99277b"
+    },
+    {
+      "path": "Addon/Missions/TB_PVE_M1_4B.conf",
+      "bytes": 1117,
+      "sha256": "f604ec388249092d5448208e533d5efcf5891f0777ada976686dd05377a4b277"
+    },
+    {
+      "path": "Addon/Missions/TB_PVE_M1_4B.conf.meta",
+      "bytes": 314,
+      "sha256": "2c4a702bd1245a9351877194f0a3effb87f8c5f203e15c0014512a70fcda1e41"
+    },
+    {
+      "path": "Addon/Missions/TB_PVE_M1_5.conf",
+      "bytes": 1110,
+      "sha256": "9318370a6e80dded44e8e3359354dd94e4cd5d547d680510ada385344b131c65"
+    },
+    {
+      "path": "Addon/Missions/TB_PVE_M1_5.conf.meta",
+      "bytes": 70,
+      "sha256": "ce70746dde95ab229f2e3e06ce7bb001dcfe2c6e9ef76864dc2fc6f98ce7528b"
+    },
+    {
+      "path": "Addon/Missions/TB_PVE_M2_1.conf",
+      "bytes": 1285,
+      "sha256": "db4eb9c5f74f1ab27cc0be6c4629c87d6dfb98c1b10be34be02e66eb9f2fe8e5"
+    },
+    {
+      "path": "Addon/Missions/TB_PVE_M2_1.conf.meta",
+      "bytes": 70,
+      "sha256": "f5dc3b351531e200609ede9cbf6b59bd5cfd3a59e03b0c1a80e2aae278a16db8"
+    },
+    {
+      "path": "Addon/Missions/TB_PVE_M2_4.conf",
+      "bytes": 2048,
+      "sha256": "889047d1c048a475567e87109f19eec5e3ee4842d4f8d342a2d5ac2aabe83360"
+    },
+    {
+      "path": "Addon/Missions/TB_PVE_M2_4.conf.meta",
+      "bytes": 70,
+      "sha256": "f5971a79ed2535ef99c21e953378c749a58412db5cddd1c38ee191a2048b2e0b"
+    },
+    {
+      "path": "Addon/Missions/TB_PVE_M3_7_Playtest.conf",
+      "bytes": 2066,
+      "sha256": "c1e2ab7154140380668e630d4f93cd3131daabd09d4afdf4c1e2540dd186c25b"
+    },
+    {
+      "path": "Addon/Missions/TB_PVE_M3_7_Playtest.conf.meta",
+      "bytes": 79,
+      "sha256": "b31664a2e476f475f34aad2a3a4b5b70d0e032fd8f5ca93bc13128eeb0e4281f"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_CorrectiveProof.conf",
+      "bytes": 176,
+      "sha256": "0bc810bfa80f8bf8d82d790cd17301c2452a59db6d758c128ff644ffcde46404"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_CorrectiveProof.conf.meta",
+      "bytes": 95,
+      "sha256": "a672fe6d43f2f7bb9a4d91e2ad27d8537261f6864d77516a1d58bdcc135c17c9"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_1.conf",
+      "bytes": 155,
+      "sha256": "19a307994703feca03f25b54d0379866be5e26cb899d77709c82a7da89e843a4"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_1.conf.meta",
+      "bytes": 87,
+      "sha256": "9050c774d52be473b0a22e2c5e99c65eaebead9b1b54007ce689dea0d31a7cef"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_2.conf",
+      "bytes": 152,
+      "sha256": "0acea38d41b08403b7d0f64c8fddf7cc2d2398a0e21287a141b4cf193c1bb40c"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_2.conf.meta",
+      "bytes": 87,
+      "sha256": "4a95354adbae63124360dc065f54cbcdff4346c3ece5c744a531ef2ae7817156"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_3.conf",
+      "bytes": 150,
+      "sha256": "2a1ab499fd26f4caa5c399e6e163e854bb94b953078492cd0c22329f7465eef9"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_3.conf.meta",
+      "bytes": 87,
+      "sha256": "ea14276e4d21ed422c28ba13e217bac8e282d0df5d872d54d2dac194c124c177"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_4.conf",
+      "bytes": 153,
+      "sha256": "01961af5e4e639ecc54957f3cd28250219168e5c4c37d1236111d88defbdcd07"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_4.conf.meta",
+      "bytes": 87,
+      "sha256": "49d45e284b259393bf8593242c7fa7a13b671a3543dc1b0623d0dcf5532a14e7"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_5.conf",
+      "bytes": 154,
+      "sha256": "dc5ccf2b7d7e72d41259ce549d52c3ee2761bf7803b17055fd2825833c2fd463"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_5.conf.meta",
+      "bytes": 87,
+      "sha256": "2db640ec2e321eafc009bbdc3eab60917e4b00b71112fda154d113cdf876aa26"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_6.conf",
+      "bytes": 153,
+      "sha256": "5d3c71977e33391f26966ef7361979dabe3e73d6d8b04c21c8389d8b25bf1d82"
+    },
+    {
+      "path": "Addon/Missions/Test/M4XP/TB_CC_M4XP_Proof_6.conf.meta",
+      "bytes": 87,
+      "sha256": "192819153166ffb10efb7b0e5bddc56ea463767c4c3c7f4e46c151f457d40a35"
+    },
+    {
+      "path": "Addon/Prefabs/MP/Modes/Conflict/GameMode_Campaign.et",
+      "bytes": 103,
+      "sha256": "972b49e20dee2836d151f9ee5958ead32ee5f67e05db2a5d4713c768ab64b1da"
+    },
+    {
+      "path": "Addon/Prefabs/MP/Modes/Conflict/GameMode_Campaign.et.meta",
+      "bytes": 393,
+      "sha256": "ad5597f2ce42955bd915ba61c7184c1f93402b3b71d57c802af7894af1098c45"
+    },
+    {
+      "path": "Addon/Prefabs/MP/TB_CC_M4X_GameMode.et",
+      "bytes": 252,
+      "sha256": "0a93aa8d7dfadce81bbb7ad75ad3905381cbd36b6750905fb90f17bc1edb14fa"
+    },
+    {
+      "path": "Addon/Prefabs/MP/TB_CC_M4X_GameMode.et.meta",
+      "bytes": 77,
+      "sha256": "db64ccf7e985b354e1c92d9aa0ae7237312fad3f8d3d1d95a0ff070a2db81805"
+    },
+    {
+      "path": "Addon/Prefabs/MP/TB_CC_M4XP_GameMode.et",
+      "bytes": 102,
+      "sha256": "2ccdd13b612d1c5ad6150b256a94fa3c50c89e29d4d3f3efa24a01e73a78eb4a"
+    },
+    {
+      "path": "Addon/Prefabs/MP/TB_CC_M4XP_GameMode.et.meta",
+      "bytes": 78,
+      "sha256": "dfa3c64592523acc0df9b2192446eda6837fa20a47790b7ffd5ad168f04a516a"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_CC_ArlandHQCandidate.et",
+      "bytes": 585,
+      "sha256": "09e94edb7bab5f438cc85cb28a3d1a8d7d8aee8bb1b23209305a3bd7738f24d2"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_CC_ArlandHQCandidate.et.meta",
+      "bytes": 100,
+      "sha256": "33e8f7bb090ba5b955f18b91b0071686aab7e3613de5b508ca73a937aacd21b5"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_CC_M4_4I_StrategicCapture.et",
+      "bytes": 359,
+      "sha256": "17297f2a61268364b4769ab99ef81518928fa4df6a1462d8e7b6d9c43e496a01"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_CC_M4_4I_StrategicCapture.et.meta",
+      "bytes": 390,
+      "sha256": "f78428e47e0b4778859613afc9a3da647ee3803d2e412e058bac91a7d20f872b"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_CC_MOB.et",
+      "bytes": 336,
+      "sha256": "c0ab19d63c1db553a247bb67a25777a87268a3c5149e1a71774aad58655cd1e1"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_CC_MOB.et.meta",
+      "bytes": 86,
+      "sha256": "cf12d58163d68757610500c65055af9ce2e6bbc08219d57f34af2f099f30e5b2"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_CC_StrategicBase.et",
+      "bytes": 609,
+      "sha256": "a408de646057421afef8b431c9d69d2bccbe490754e598ce1e13dfc429a14841"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_CC_StrategicBase.et.meta",
+      "bytes": 96,
+      "sha256": "db940b5fdb1c5802e02cc3ea13b0db09434be0e5c1352315d7d549fd481295ee"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_PVE_ConflictMilitaryBase.et",
+      "bytes": 258,
+      "sha256": "a4eae400eb738d238b2003287b9a190fa51591f8f41f28b0cde5210c98c56b4c"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_PVE_ConflictMilitaryBase.et.meta",
+      "bytes": 407,
+      "sha256": "d835875fbe8380885727b35ec280416b83141869291cfc3ba0d48ca92b3ee0c6"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_PVE_M1_1B_AICaptureBase.et",
+      "bytes": 258,
+      "sha256": "f01062ac95471090a85cb9e6ae0c1ede04f2105dd301f96471ede54b3a4d1e70"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_PVE_M1_1B_AICaptureBase.et.meta",
+      "bytes": 406,
+      "sha256": "be31d0b6a62f08aae4a85c34a8640f3bf2bee0144366c5c63df0f591c3f04e2a"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_PVE_M1_3_NoPlayerDeploymentBase.et",
+      "bytes": 299,
+      "sha256": "4fd6c9c2e5dd5945ab1d4824e8d70d3919fb49237b3d67f180d28e730e37abbd"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/MilitaryBase/TB_PVE_M1_3_NoPlayerDeploymentBase.et.meta",
+      "bytes": 414,
+      "sha256": "6352eae761be39bde1bc4144d3ee109558f434a60727daefddc758b7ba769e96"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/TB_CC_M4_1_ArlandFixture.et",
+      "bytes": 374,
+      "sha256": "86f7f8cbda5869c39cedd2d7784ec9cd927eee47d2c277df262e5f2eb160b872"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/TB_CC_M4_1_ArlandFixture.et.meta",
+      "bytes": 88,
+      "sha256": "ea09edd9977290be59890fb61bafcba0309f391c708277e3589ce100a34d733e"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/TB_CC_M4_4_ArlandGraphCampaign.et",
+      "bytes": 354,
+      "sha256": "50f83bcdac32b35cfc9bde30822b1bfff212583fa827776a1a5ba50a6f4ad4f9"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/TB_CC_M4_4_ArlandGraphCampaign.et.meta",
+      "bytes": 94,
+      "sha256": "20141ba47e9f08f35dee03697fa261ec92cb3c5b662b8f54d3061d6e90ab40a2"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/TB_PVE_M2_1_LinearFrontier.et",
+      "bytes": 344,
+      "sha256": "927b38000fadd0b37d5bfdcc43ea8fbcfb39411aab9b7332c8acc6ecc7aab9fc"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/TB_PVE_M2_1_LinearFrontier.et.meta",
+      "bytes": 142,
+      "sha256": "f332c1115fb0c80697cd3f4ed117b219289400186eb10a160939fa43d06ec378"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/TB_PVE_M2_4_ProductionRoute.et",
+      "bytes": 1952,
+      "sha256": "11008beecd83639ee6c8622dfd92dd4105dc8fa03fadb8fb0b08d532de29e99b"
+    },
+    {
+      "path": "Addon/Prefabs/Systems/TB_PVE_M2_4_ProductionRoute.et.meta",
+      "bytes": 91,
+      "sha256": "3b6e8af0a15e2e3721797c1018ca18f660300c40fc0644a405bfcfba2cdbdcd6"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Core/TB_CC_ChatRuntimeDiagnostics.c",
+      "bytes": 3372,
+      "sha256": "863f919a60ae35e35b54612293d42d5cea16306eb9aad2030b08814777acf35e"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Core/TB_CC_DedicatedGMDiagnostics.c",
+      "bytes": 4717,
+      "sha256": "611686caab0fc62702114c2692498b11436020b89abaa880ce36611b95a99150"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Core/TB_CC_FIARecaptureOpportunity.c",
+      "bytes": 5266,
+      "sha256": "58fb051d6e7267e4dc836f9bc32e95f71654906b558ffd2553310c2e979a46d6"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Core/TB_CC_NativeRadioObserver.c",
+      "bytes": 12049,
+      "sha256": "6917fc1b067b3ca81ce2a1002652553e50ecc3e5adad854a326e06f120b95987"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Core/TB_CC_ObjectiveCommitment.c",
+      "bytes": 3829,
+      "sha256": "a6811826756534d70df807f9dc421e139f50de39d571ac8119ba5368261c9673"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Core/TB_CC_StrategicDefence.c",
+      "bytes": 8875,
+      "sha256": "be5457c202a94e7d0c0665134aaa87645dbe7bd803b306aad94606d42bb9835f"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Core/TB_CC_StrategicResponse.c",
+      "bytes": 10475,
+      "sha256": "0a90c093ce6715c6c507ef1e7e783d8c8993a2fd898261aac896e54d8bbc6410"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_CoreWar/TB_CC_WarRepresentation.c",
+      "bytes": 10251,
+      "sha256": "6a15a0615719290d757b01081d25d3341770b6cca32fea9d0e36bb1d65b27553"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_CoreWar/TB_CC_WarSimulation.c",
+      "bytes": 49634,
+      "sha256": "b72c87c1f9c31242346f81c7b068594eac0f579cb20b14e8c2b01e4bc38a2270"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_1/TB_CC_M4_1_ArlandFixture.c",
+      "bytes": 7450,
+      "sha256": "216152be00dc8e34e31d4f28527b013ba0ef0c06a49abbef75af0ad6aebcf9e0"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_1/TB_CC_M4_1_MapDefinition.c",
+      "bytes": 4424,
+      "sha256": "b966a1a058cf5c23ad7e16c3c13d0b99de12bc10a6fdebf9dbb0fd3d3ca2a108"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_1/TB_CC_M4_1_StrategicPositionRegistry.c",
+      "bytes": 8246,
+      "sha256": "90e2e5a7fbd3e90cc680a7dd909bbe7f6c72d376e821d802a56770dcc82c52c4"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_2/TB_CC_M4_2_ArlandProductionDefinition.c",
+      "bytes": 7926,
+      "sha256": "16d4ff15d658352925b7c58d01e5c78725dbce5200821c7105d41cadca584b40"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_2/TB_CC_M4_2_ArlandSurvey.c",
+      "bytes": 1885,
+      "sha256": "c3f67a52b7cc1cda2c60e3434e3f064c58486654637699c180b41115dd700b9c"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_2A/TB_CC_M4_2A_ArlandStartDefinition.c",
+      "bytes": 5425,
+      "sha256": "9694952d3cc1743cbb6bdc9718dacf1b9c062cfe83e153f548eaa1f8f2886260"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_2A/TB_CC_M4_2A_CampaignStart.c",
+      "bytes": 6615,
+      "sha256": "6c33cef5b20532bc23bed7307d05725a9808909e978d86b8493e57c051736e4a"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_3/TB_CC_M4_3_StrategicEvaluator.c",
+      "bytes": 27739,
+      "sha256": "ab26bbe43617c33edb91aa44eddb12706fe759ce11b3e835836626c53ac93b14"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_3/TB_CC_M4_3_StrategicEvaluatorProof.c",
+      "bytes": 11818,
+      "sha256": "9c203853d7b354e6db9cc7d6b3ccc1d9bcbbb3e1565a23b2dacb0d2085dd45f8"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_4/TB_CC_M4_4_ArlandGraphCampaign.c",
+      "bytes": 32102,
+      "sha256": "48f201fc1d4b5b8f2137ccbfca0b0918f0f2ca2c8472c50a9c12242c06c32ed7"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_4/TB_CC_M4_4_PhysicalAuthorityProof.c",
+      "bytes": 15993,
+      "sha256": "f00a81bd86844a57acb1c3571b3b222b7285f7c70232c90c63c3533f6e02e73f"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_4/TB_CC_M4_4_RemainingAuthorityProof.c",
+      "bytes": 9839,
+      "sha256": "af82686e03cd864e219e82eb137da20300f2f3c9a10f45e152eb1734ca8d2ba7"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_4/TB_CC_M4_4_StrategicCaptureConnectivity.c",
+      "bytes": 10598,
+      "sha256": "aa3361b11d243a74f8e1d943c6a7f6900ca71f6335b973666e3ea3e5390b941e"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_4/TB_CC_M4_4H_VictoryPressureProof.c",
+      "bytes": 18597,
+      "sha256": "2335ed9f1922fac594653fb378955f602fe42fbc6670c0064dcd51602d394955"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_4/TB_CC_M4_4I_PlacementProbe.c",
+      "bytes": 1803,
+      "sha256": "d7d244976ddf1650511beca297fc4e5afee5bca66d0d9ce37856ba80d9ec48e5"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4_4/TB_CC_VictoryPressurePresentation.c",
+      "bytes": 10628,
+      "sha256": "1633eee893b6f0283603388323e92e73b10fc47c7fe7912b2479bf1acf277e3e"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4X/TB_CC_M4X_DependencyAudit.c",
+      "bytes": 4948,
+      "sha256": "261ea7a9235d7f14fe6b51395145fd0e760d9065beebb42535ef78fc48baa3a3"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4X/TB_CC_M4X_NativeCampaign.c",
+      "bytes": 5560,
+      "sha256": "56d33d28089fb14f28b231f938ce9da11d161bfbd976d5d02a43179625d5b155"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4X/TB_CC_M4X_PhysicalProof.c",
+      "bytes": 7831,
+      "sha256": "b4fab3432f893555460ce99d834f8f31468b271b746e396d6b4cad25953fd568"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4X/TB_CC_M4XP_IntegratedProof.c",
+      "bytes": 29741,
+      "sha256": "e3dfcb1b3df6c4b3a029cfc1f2ad35bf7ce563a09b8ffd02231aa078741ad343"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4X/TB_CC_M4XP_NativeArland.c",
+      "bytes": 91749,
+      "sha256": "52de2143ff89ef707cdc646fe4e58fea72ca1cd63dd378afdca820409cb03d5a"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4X/TB_CC_NativeResponseAdapter.c",
+      "bytes": 4003,
+      "sha256": "ed0b15e49f7fd51bc213377452ce32c74d979120282232af50dcf5efa043afee"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4X/TB_CC_NativeWarAdapter.c",
+      "bytes": 3618,
+      "sha256": "2b861a1d3b1ccd0f1c9d1a8c83198af4db3ef059734c4a67df6cecc57089834d"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4X/TB_CC_PhysicalWar.c",
+      "bytes": 18036,
+      "sha256": "bdaec6a6df1e12422b6491d996fb3759871acc7fb16d69cdd023a9cd4d25d30a"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_M4X/TB_CC_TerritorialOccupation.c",
+      "bytes": 16561,
+      "sha256": "df6d781ee7620526676964a7f26ee795d7e4c28e707d954df118898f28a06f36"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Persistence/TB_CC_CampaignAdminCommand.c",
+      "bytes": 9389,
+      "sha256": "1edc8ef61973d543f2a2c8044e2ca83a8b9399a3589a05780aed6bb25653d223"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Persistence/TB_CC_CampaignAdministration.c",
+      "bytes": 3713,
+      "sha256": "aec07f389b2e6e0ebc6ab531f7afd486ec35c62bd762249293829047e21a0a69"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Persistence/TB_CC_CampaignContainer.c",
+      "bytes": 6137,
+      "sha256": "896cbfbc28919274c6aa1ec7baabc0b6faed95d724147ffbaa1d2bfebf7d98fa"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Persistence/TB_CC_PersistenceService.c",
+      "bytes": 28813,
+      "sha256": "c593cebdd1a58095b1bec0853ac8bf347d6c103960d3711cd2a2a95f1c8ea433"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Persistence/TB_CC_PlayerProgression.c",
+      "bytes": 13568,
+      "sha256": "870fe5762783c340b8d9f08bfa5d00f5a234c3fd5926a02e98f17f32b8123379"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Persistence/TB_CC_RestoreTransaction.c",
+      "bytes": 5975,
+      "sha256": "f60ed57a115866b0432c3c945ab8331c89e1db8283a10d6d01b16d109adc7bfb"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_CC_Persistence/TB_CC_StrategicPersistence.c",
+      "bytes": 1984,
+      "sha256": "44fca03cf01217e0098ef3ea475ee6c889475a9335dd4ee35b30db636fa6ffeb"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M1_1/TB_PVE_M1_1_CaptureProof.c",
+      "bytes": 41255,
+      "sha256": "737f6dffd0fe0a689429cc22b45a8e1e36cb753b48b52f500d442bf7a072d2f9"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M1_3/TB_PVE_M1_3_NoPlayerDeployment.c",
+      "bytes": 972,
+      "sha256": "73f51cbdc62af4affd96bf66ca004fc2f9f50d6a4c5a96c0504885585f4ac754"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M1_5/TB_PVE_M1_5_HumanFactionRestriction.c",
+      "bytes": 1146,
+      "sha256": "ff56868440f5b70a48c49d9d66d29d7412e50f2412ba074bceca5b1eedcba5bd"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M2_1/TB_PVE_M2_1_LinearFrontier.c",
+      "bytes": 33299,
+      "sha256": "35aed744f7d4931d8abc0e5eff9e7ab487895d0d6ff418de6051f10581425388"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M2_1/TB_PVE_M2_1_VerticalSliceProof.c",
+      "bytes": 12755,
+      "sha256": "5ba6d82eed2d67dea7debfbc21369563df6a0e84ea7b0d5a01d84526799922cf"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M2_3/TB_PVE_M2_3_FrontierQuery.c",
+      "bytes": 12767,
+      "sha256": "af460765cdd9c5fe656cda6b5b255bd42e7471c65dee6aec3092e1fb0b1ea083"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M2_4/TB_PVE_M2_4_ProductionRouteProof.c",
+      "bytes": 14530,
+      "sha256": "20a96516eedf549e8769895e6397700f2b4fc523fb263a81191d36eda07c199a"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M2_5/TB_PVE_M2_5_CampaignOutcomeProof.c",
+      "bytes": 18604,
+      "sha256": "0ce58842c28c3da666342b56d277abb91aefa606e81176d3abd89302e6c2cb51"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M2_5/TB_PVE_M2_5_TerminalHQCapturePolicy.c",
+      "bytes": 2040,
+      "sha256": "0d54153152bde2df95366fd6a91d0d7bf7098d3ce9bd1eb4dae604554a33d59c"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_1/TB_PVE_M3_1_AutonomousAttackProof.c",
+      "bytes": 9938,
+      "sha256": "1b1f2cb2c7c7094af1782116043f8304dc563130cc0bfbf340afb6c61be5a282"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_1/TB_PVE_M3_1_Operation.c",
+      "bytes": 29038,
+      "sha256": "a7ff0cabe77ac5301043b9a29d6fc3ff18d4276b12d66c817ebeef9836322813"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_2/TB_PVE_M3_2_OPFORCoordinatorProof.c",
+      "bytes": 11266,
+      "sha256": "0bfb64890d0a9237e3f3a21fac1686c95f03965a2ae5fe9929a4349f4453602e"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_2/TB_PVE_M3_2_OPFOROperationCoordinator.c",
+      "bytes": 17173,
+      "sha256": "d07e0b7d6ca989bd672124e3cbfdffd6efa11b91f9057406d81e42807fd9cc35"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_3/TB_PVE_M3_3_TacticalStagingPolicy.c",
+      "bytes": 18975,
+      "sha256": "db51e71e15de8b6c3348556788d8258d4d1520558e14bb22551967a3598fde9a"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_3/TB_PVE_M3_3_TacticalStagingProof.c",
+      "bytes": 14030,
+      "sha256": "b5269f8de3e95f625f0ecd54f38c3e5480f0cec8ea6822d5af3811339963a0a1"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_4/TB_PVE_M3_4_ForcePackageProof.c",
+      "bytes": 11941,
+      "sha256": "7a7267b2c78585f7b89e97a84bb45dc93a7968fddc5e8da9a05932391415ec2d"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_4/TB_PVE_M3_4_ForcePackages.c",
+      "bytes": 16674,
+      "sha256": "1bad6fe79c6ad44755df80689c1b39540246cff9e37209740c6a4316f19f3183"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_5/TB_PVE_M3_5_ForceSelection.c",
+      "bytes": 8200,
+      "sha256": "e4e593980e8c241429181b203b61f5086c340954f0bc0185b9cad0a7edc2c2a2"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_5/TB_PVE_M3_5_ForceSelectionProof.c",
+      "bytes": 11821,
+      "sha256": "eb5ebd833d17575d4915da283b3bd003407803a435631ce3fa21090ae924bae6"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_6/TB_PVE_M3_6_FrontlineGarrison.c",
+      "bytes": 42371,
+      "sha256": "39886129674189466c80d60379524cf4686c7fb9b723e16aa16939797223c4a6"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_6/TB_PVE_M3_6_FrontlineGarrisonProof.c",
+      "bytes": 10650,
+      "sha256": "983c61e413bce65bf89968e75fa85097f4dd7a1a77ecace15136685909447a3b"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_7/TB_PVE_M3_7_HumanPresenceQuery.c",
+      "bytes": 3924,
+      "sha256": "9325f6531b4186274e5f26303e7b09dcb57727f1aca07d89ef5290c972cd69a9"
+    },
+    {
+      "path": "Addon/Scripts/Game/TB_PVE_M3_7/TB_PVE_M3_7_PlaytestTelemetry.c",
+      "bytes": 3590,
+      "sha256": "61b252c8b9bcccd06218f8bd81ee5ada33ce71ceee84e85920b6d5a210bfc405"
+    },
+    {
+      "path": "Addon/UI/layouts/BCM/Campaign/TB_CC_VictoryPressure.layout",
+      "bytes": 2791,
+      "sha256": "5ee9728a75ff7502629208881ab1dcf1463ebb28a8f7f7ea9efd6fa5d01f3e0b"
+    },
+    {
+      "path": "Addon/UI/layouts/BCM/Campaign/TB_CC_VictoryPressure.layout.meta",
+      "bytes": 334,
+      "sha256": "c73b2db028102d3e748f35b159bd2d7b5fb63083f300611df269c8003bd4ac4d"
+    },
+    {
+      "path": "Addon/Worlds/Production/Arland/TB_CC_Arland_Layers/A_Managers.layer",
+      "bytes": 5897,
+      "sha256": "28098bd7988a1c223724b3d93b60cb840bb4d07deb0664e76eabcb5aaccd4d61"
+    },
+    {
+      "path": "Addon/Worlds/Production/Arland/TB_CC_Arland_Layers/B_MOB.layer",
+      "bytes": 657,
+      "sha256": "93053ad30663c616461314aa4167f0439f96139620e9ac573157b41d33d3f66b"
+    },
+    {
+      "path": "Addon/Worlds/Production/Arland/TB_CC_Arland_Layers/C_CapturePoints.layer",
+      "bytes": 3778,
+      "sha256": "f10ca72235df1bc0da9fec53ef5459aa55e7fdf25924178964bf5659a9e1eef0"
+    },
+    {
+      "path": "Addon/Worlds/Production/Arland/TB_CC_Arland.ent",
+      "bytes": 47,
+      "sha256": "3bd0912ae886ff9965dc29ffd0f0a044d5dd4d9def1d08a3105a3ddd235e0cbe"
+    },
+    {
+      "path": "Addon/Worlds/Production/Arland/TB_CC_Arland.ent.meta",
+      "bytes": 305,
+      "sha256": "d48d23cec0172521742bd90d59a2b8d2369f8b1c1799dfdac128862015b33953"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4_1_ArlandFixture_Layers/M4_1_Fixture.layer",
+      "bytes": 1748,
+      "sha256": "b890ea3c9fe91fde2ce8224e52de27f27cbeadc3fd71c6a5c78e37d4b45979ad"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4_1_ArlandFixture.ent",
+      "bytes": 57,
+      "sha256": "1580af3c3605f032ff369707a3fff83194b2c7f88deffd5b6232e5ce869f0af2"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4_1_ArlandFixture.ent.meta",
+      "bytes": 299,
+      "sha256": "a55d8616294c5ffda295a0cf82e3267aa194fbd8a1928a4125f7cf94424deb96"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4_4_ArlandGraphCampaign_Layers/M4_4_Campaign.layer",
+      "bytes": 1355,
+      "sha256": "fd27f2298cba09da90af136873245b649e54a2efd6977cb8dbe0f89645e23278"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4_4_ArlandGraphCampaign.ent",
+      "bytes": 56,
+      "sha256": "db67b0913c23b28b7e211da7be71b8ed28dc92a651c7e434ec0943819b4bcf2f"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4_4_ArlandGraphCampaign.ent.meta",
+      "bytes": 305,
+      "sha256": "21c945e29d3cc32e12b711cd1214715d58bcceca14bb222790fbe61b1f24a0eb"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_DependencyAudit_Layers/Audit.layer",
+      "bytes": 133,
+      "sha256": "41e04197e8991bea8312cf17d30ba387db747b1cd9ac0e0c385e60ec54639e83"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_DependencyAudit.ent",
+      "bytes": 48,
+      "sha256": "070291040174855877fa07b7d0b3482896ea3ea9fe17acf163128367cf59caf6"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_DependencyAudit.ent.meta",
+      "bytes": 300,
+      "sha256": "c3efa018baaf746dc29a2bc851df98ea3b559f1b52e3eb2f3853a74102d0714f"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_NativePrototype_Layers/Native.layer",
+      "bytes": 1840,
+      "sha256": "f93da7268db93c98bf3fe3583adcf565d07b5b8457aea4c2864a22dccce41f16"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_NativePrototype.ent",
+      "bytes": 48,
+      "sha256": "070291040174855877fa07b7d0b3482896ea3ea9fe17acf163128367cf59caf6"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_NativePrototype.ent.meta",
+      "bytes": 300,
+      "sha256": "24e58755abf17a798c99e07295862189c71ed274f165aba8f3273e2a1d8ffe28"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_PhysicalProof_Layers/Proof.layer",
+      "bytes": 140,
+      "sha256": "bdde4146e194c480a7b3ababaecf46febd046427e7d1504d705ec7651eef5970"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_PhysicalProof.ent",
+      "bytes": 60,
+      "sha256": "7b2c41cb09593678e8404e6f25829836e8aea83229229ce3c6a7a3a03e9ad2b7"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_PhysicalProof.ent.meta",
+      "bytes": 298,
+      "sha256": "fe4cb1beaec5ae4331bfbec25332f5beb045330750b5c414ac74d6478ef208ba"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_PressureProof_Layers/Proof.layer",
+      "bytes": 164,
+      "sha256": "a73908af262d0194e36ffbfb609a74c1c0153545556e78637e5a4c5773330e52"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_PressureProof.ent",
+      "bytes": 60,
+      "sha256": "7b2c41cb09593678e8404e6f25829836e8aea83229229ce3c6a7a3a03e9ad2b7"
+    },
+    {
+      "path": "Addon/Worlds/TB_CC_M4X_PressureProof.ent.meta",
+      "bytes": 298,
+      "sha256": "42162e2c1b9431ec663b7d0f5efb6806d9f15465b0dd075dff395a64bd63e350"
+    },
+    {
+      "path": "Addon/Worlds/TB_PVE_M1_1A_CaptureTest_Layers/M1_1A_BLUFOR_Base.layer",
+      "bytes": 1357,
+      "sha256": "c7906c45e74867a39ddef9f1df99ee30c523599ccd8a57a2726922456766bef5"
+    },
+    {
+      "path": "Addon/Worlds/TB_PVE_M1_1A_CaptureTest.ent",
+      "bytes": 55,
+      "sha256": "a09141484d166552edf5b2d3716773804dbad01f46567cb8e650f1364fc9de9a"
+    },
+    {
+      "path": "Addon/Worlds/TB_PVE_M1_1A_CaptureTest.ent.meta",
+      "bytes": 317,
+      "sha256": "e49c2bd6a6f72a9f1d93070e91d268c38469c2c471e52b64330ce7ecb8788bf8"
+    },
+    {
+      "path": "Addon/Worlds/TB_PVE_M2_1_LinearFrontier_Layers/M2_1_Route.layer",
+      "bytes": 2441,
+      "sha256": "6beb7191ff0dd8e8cece9ab57936e924480844ff938841bc3a13aebc1dbdb79c"
+    },
+    {
+      "path": "Addon/Worlds/TB_PVE_M2_1_LinearFrontier.ent",
+      "bytes": 55,
+      "sha256": "a09141484d166552edf5b2d3716773804dbad01f46567cb8e650f1364fc9de9a"
+    },
+    {
+      "path": "Addon/Worlds/TB_PVE_M2_1_LinearFrontier.ent.meta",
+      "bytes": 319,
+      "sha256": "fb32e8aa9991ddcf03481ba444addf38fd2d5683727b454125dae01de5cfff82"
+    },
+    {
+      "path": "Addon/Worlds/TB_PVE_M2_4_ProductionRoute_Layers/M2_4_Route.layer",
+      "bytes": 4956,
+      "sha256": "f7958879541a1904f6421eeeec9b31828855a0ace87ff929a5e2649c7d58ef69"
+    },
+    {
+      "path": "Addon/Worlds/TB_PVE_M2_4_ProductionRoute.ent",
+      "bytes": 55,
+      "sha256": "a09141484d166552edf5b2d3716773804dbad01f46567cb8e650f1364fc9de9a"
+    },
+    {
+      "path": "Addon/Worlds/TB_PVE_M2_4_ProductionRoute.ent.meta",
+      "bytes": 83,
+      "sha256": "f5a70f9ee8bd4fe513223d81bcbe9c60bc27e147a8932f16a69a5be5ecd85118"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_CorrectiveProof_Layers/Proof.layer",
+      "bytes": 162,
+      "sha256": "4eae64b16d1fac3298dd2cfafb8adbb2e8398a672096a72ddc4b4bd1f4ada37c"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_CorrectiveProof.ent",
+      "bytes": 65,
+      "sha256": "9101374976a2b23808060d776bbf911e1cb5af7736ae84d319a51ec100d27823"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_CorrectiveProof.ent.meta",
+      "bytes": 311,
+      "sha256": "382428be1d66cc218f819e2145adb3597b59fd3633df969493cb9430edc86e99"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_1_Layers/Proof.layer",
+      "bytes": 162,
+      "sha256": "5f09209e152b557cc2a0999fe1fbd9bcc74608521d8c9e4016d5c63fbca69340"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_1.ent",
+      "bytes": 65,
+      "sha256": "9101374976a2b23808060d776bbf911e1cb5af7736ae84d319a51ec100d27823"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_1.ent.meta",
+      "bytes": 303,
+      "sha256": "5565bebdccc3ba24cfd7ba9946bab695d38ddeb5e89c5995ac4dd748dbf2d568"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_2_Layers/Proof.layer",
+      "bytes": 162,
+      "sha256": "a3e602f90c7d17d5d9f1c3d670f85b004efe49ab1f322273de6970876994cbf3"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_2.ent",
+      "bytes": 65,
+      "sha256": "9101374976a2b23808060d776bbf911e1cb5af7736ae84d319a51ec100d27823"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_2.ent.meta",
+      "bytes": 303,
+      "sha256": "57b78e4f18133b6d910d07722134bde9544f6f0dac8356e0348bc706eda7ba69"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_3_Layers/Proof.layer",
+      "bytes": 162,
+      "sha256": "a0f08be04925fed9bf84c7e778f1d108d25c480f8817619bd53f8a3518284ff1"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_3.ent",
+      "bytes": 65,
+      "sha256": "9101374976a2b23808060d776bbf911e1cb5af7736ae84d319a51ec100d27823"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_3.ent.meta",
+      "bytes": 303,
+      "sha256": "335740274c1f7914c9045ab92a65b33b34c65de3152c3f0003f9bf6095591588"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_4_Layers/Proof.layer",
+      "bytes": 162,
+      "sha256": "391cb865f22f71b1cb147cea4392c91e03d2a5f76f31dbe9060d1fcfcb27d1a4"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_4.ent",
+      "bytes": 65,
+      "sha256": "9101374976a2b23808060d776bbf911e1cb5af7736ae84d319a51ec100d27823"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_4.ent.meta",
+      "bytes": 303,
+      "sha256": "6fd9bd4d35ae154749a84208cc39ff7bee4a0d4c5f1d4c4805eb8065d1046d71"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_5_Layers/Proof.layer",
+      "bytes": 162,
+      "sha256": "179849b3c9fffeed485b588fe9ff97781b224d8b8ff4dac8061b0173707ecc81"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_5.ent",
+      "bytes": 65,
+      "sha256": "9101374976a2b23808060d776bbf911e1cb5af7736ae84d319a51ec100d27823"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_5.ent.meta",
+      "bytes": 303,
+      "sha256": "f6c1207fea331dbf9c1796219028fbe4e01d7281da70754e97d1f7bd6138e1ca"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_6_Layers/Proof.layer",
+      "bytes": 162,
+      "sha256": "11e74d5e1e25a4e6f9362a1c2652f9b53104d1b68882ca0e966f03285e2010a2"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_6.ent",
+      "bytes": 65,
+      "sha256": "9101374976a2b23808060d776bbf911e1cb5af7736ae84d319a51ec100d27823"
+    },
+    {
+      "path": "Addon/Worlds/Test/M4XP/TB_CC_M4XP_Proof_6.ent.meta",
+      "bytes": 303,
+      "sha256": "07c5299fd5b149b56d7255f969f0ee7dba58a6994b03a1557d8127319629d9fd"
+    }
+  ]
+}

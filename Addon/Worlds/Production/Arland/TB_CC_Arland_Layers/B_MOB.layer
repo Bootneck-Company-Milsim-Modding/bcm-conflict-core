@@ -1,0 +1,25 @@
+$grp GenericEntity : "{A4F3100000000000}Prefabs/Systems/MilitaryBase/TB_CC_ArlandHQCandidate.et" {
+ TB_CC_NATIVE_HQWest {
+  components {
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "HQ West"
+    m_sBaseNameUpper "HQ WEST"
+    m_sMapLocationName "HQ West"
+   }
+  }
+  coords 1157.67 1.156 3282.46
+ }
+ TB_CC_NATIVE_HQEast {
+  components {
+   SCR_FactionAffiliationComponent "{621EB97024DABA88}" {
+    "faction affiliation" "US"
+   }
+   SCR_CampaignMilitaryBaseComponent "{621EB97024DABD3C}" {
+    m_sBaseName "HQ East"
+    m_sBaseNameUpper "HQ EAST"
+    m_sMapLocationName "HQ East"
+   }
+  }
+  coords 1621.77 4.045 902.667
+ }
+}

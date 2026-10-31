@@ -1,0 +1,133 @@
+FrameWidgetClass {
+ Name "BCMPressureRoot"
+ {
+  FrameWidgetClass {
+   Name "Announcement"
+   Slot FrameWidgetSlot {
+    Anchor 1 0 1 0
+    PositionX -600
+    OffsetLeft -600
+    PositionY 70
+    OffsetTop 70
+    SizeX 560
+    OffsetRight 40
+    SizeY 200
+    OffsetBottom -270
+   }
+   {
+    RichTextWidgetClass {
+     Name "Title"
+     Slot FrameWidgetSlot {
+      Anchor 0 0 0 0
+      PositionX 20
+      OffsetLeft 20
+      PositionY 16
+      OffsetTop 16
+      SizeX 520
+      OffsetRight -540
+      SizeY 64
+      OffsetBottom -80
+     }
+     Color 1 1 1 1
+     "Font Size" 25
+     "Min Font Size" 25
+     "Horizontal Alignment" Left
+     "Vertical Alignment" Top
+     FontProperties FontProperties {
+      Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+      ShadowSize 5
+      ShadowOffset 4 4
+     }
+    }
+    RichTextWidgetClass {
+     Name "Body"
+     Slot FrameWidgetSlot {
+      Anchor 0 0 0 0
+      PositionX 20
+      OffsetLeft 20
+      PositionY 92
+      OffsetTop 92
+      SizeX 520
+      OffsetRight -540
+      SizeY 88
+      OffsetBottom -180
+     }
+     Color 1 1 1 1
+     "Font Size" 20
+     "Min Font Size" 20
+     "Horizontal Alignment" Left
+     "Vertical Alignment" Top
+     FontProperties FontProperties {
+      Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt"
+      ShadowSize 5
+      ShadowOffset 4 4
+     }
+    }
+   }
+  }
+  FrameWidgetClass {
+   Name "Countdown"
+   Slot FrameWidgetSlot {
+    Anchor 1 0 1 0
+    PositionX -400
+    OffsetLeft -400
+    PositionY 70
+    OffsetTop 70
+    SizeX 360
+    OffsetRight 40
+    SizeY 100
+    OffsetBottom -170
+   }
+   {
+    RichTextWidgetClass {
+     Name "CountdownLabel"
+     Slot FrameWidgetSlot {
+      Anchor 0 0 0 0
+      PositionX 20
+      OffsetLeft 20
+      PositionY 12
+      OffsetTop 12
+      SizeX 320
+      OffsetRight -340
+      SizeY 30
+      OffsetBottom -42
+     }
+     Color 1 1 1 1
+     "Font Size" 18
+     "Min Font Size" 18
+     "Horizontal Alignment" Left
+     "Vertical Alignment" Center
+     FontProperties FontProperties {
+      Font "{EABA4FE9D014CCEF}UI/Fonts/RobotoCondensed/RobotoCondensed_Bold.fnt"
+      ShadowSize 5
+      ShadowOffset 4 4
+     }
+    }
+    RichTextWidgetClass {
+     Name "CountdownDigits"
+     Slot FrameWidgetSlot {
+      Anchor 0 0 0 0
+      PositionX 20
+      OffsetLeft 20
+      PositionY 50
+      OffsetTop 50
+      SizeX 320
+      OffsetRight -340
+      SizeY 36
+      OffsetBottom -86
+     }
+     Color 1 1 1 1
+     "Font Size" 25
+     "Min Font Size" 25
+     "Horizontal Alignment" Left
+     "Vertical Alignment" Center
+     FontProperties FontProperties {
+      Font "{3E7733BAC8C831F6}UI/Fonts/RobotoCondensed/RobotoCondensed_Regular.fnt"
+      ShadowSize 5
+      ShadowOffset 4 4
+     }
+    }
+   }
+  }
+ }
+}

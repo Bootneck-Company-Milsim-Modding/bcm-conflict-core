@@ -1,0 +1,11 @@
+MetaFileClass {
+ Name "{A4F2500000000000}Worlds/TB_CC_M4X_PressureProof.ent"
+ Configurations {
+  ENTResourceClass PC {}
+  ENTResourceClass XBOX_ONE : PC {}
+  ENTResourceClass XBOX_SERIES : PC {}
+  ENTResourceClass PS4 : PC {}
+  ENTResourceClass PS5 : PC {}
+  ENTResourceClass HEADLESS : PC {}
+ }
+}

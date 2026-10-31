@@ -1,0 +1,15 @@
+GenericEntity {
+ ID "A440000000000001"
+ components {
+  TB_CC_M4_4_ArlandGraphCampaignComponent "{A440000000000002}" {
+   m_iCampaignSeed 20
+   m_iStartMode 1
+   m_sExplicitMobId "ARLAND::HQ_EAST"
+   m_bEnableM3Coordinator 1
+   m_bEnableM3Garrison 1
+   m_iAuthorityProofMode 0
+   m_iBLUFORVictoryHoldSeconds 300
+   m_iOPFORVictoryHoldSeconds 300
+  }
+ }
+}

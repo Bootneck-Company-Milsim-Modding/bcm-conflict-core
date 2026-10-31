@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7D44D0B18F11B1B1}Prefabs/Systems/MilitaryBase/TB_PVE_M1_1B_AICaptureBase.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

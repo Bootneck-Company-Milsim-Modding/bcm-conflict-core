@@ -1,0 +1,13 @@
+GenericEntity : "{7D44D0B18F11C1C1}Prefabs/Systems/MilitaryBase/TB_PVE_ConflictMilitaryBase.et" {
+ ID "A13D000000000001"
+ components {
+  TB_PVE_M1_3_NoPlayerDeploymentMarker "{A13D000000000002}" {
+  }
+ }
+ {
+  SCR_CampaignSpawnPointGroup {
+   ID "5C6696731466AF36"
+   m_bSpawnPointEnabled 0
+  }
+ }
+}

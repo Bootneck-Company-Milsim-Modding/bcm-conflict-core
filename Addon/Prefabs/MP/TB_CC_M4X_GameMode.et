@@ -1,0 +1,8 @@
+TB_CC_M4X_GameMode : "{3B230AAC5252108F}Prefabs/MP/Modes/Conflict/GameMode_Campaign.et" {
+ ID "A4F2200000000001"
+ m_bRandomizeSupplies 0
+ m_bRandomSpawnpointsEnabled 0
+ m_bSpawnRandomCaches 0
+ m_bCommanderRoleEnabled 0
+ m_bEstablishingBasesEnabled 0
+}

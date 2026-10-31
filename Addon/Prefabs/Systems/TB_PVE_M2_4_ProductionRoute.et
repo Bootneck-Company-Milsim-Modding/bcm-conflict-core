@@ -1,0 +1,72 @@
+GenericEntity {
+ ID "A240000000000001"
+ components {
+  TB_PVE_M2_1_LinearFrontierComponent "{A240000000000002}" {
+   m_sRouteId "EVERON_NORTH_SOUTH_01"
+   m_sMobObjectiveId "MOB_NORTH"
+   m_sTerminalObjectiveId "OPFOR_ENDPOINT_SOUTH"
+   m_aRouteEntityNames {
+    "TB_M2_4_MOB_NORTH"
+    "TB_M2_4_MAIDENS_BAY"
+    "TB_M2_4_KERMOVAN"
+    "TB_M2_4_ANDRES_BEACON"
+    "TB_M2_4_CHOTAIN_COASTAL"
+    "TB_M2_4_LARUNS"
+    "TB_M2_4_QUARRY"
+    "TB_M2_4_DURRAS"
+    "TB_M2_4_VERNON"
+    "TB_M2_4_OPFOR_SOUTH"
+   }
+   m_aRouteObjectiveIds {
+    "MOB_NORTH"
+    "OBJ_01_MAIDENS_BAY"
+    "OBJ_02_KERMOVAN"
+    "OBJ_03_ANDRES_BEACON"
+    "OBJ_04_CHOTAIN_COASTAL"
+    "OBJ_05_LARUNS"
+    "OBJ_06_QUARRY"
+    "OBJ_07_DURRAS"
+    "OBJ_08_VERNON"
+    "OPFOR_ENDPOINT_SOUTH"
+   }
+   m_bRunVerticalSliceProof 0
+   m_bRunProductionScaleProof 0
+   m_iCampaignOutcomeProofMode 0
+   m_bInvokeVanillaGameEnd 1
+   m_bRunM3_1Proof 0
+   m_bEnableM3_2Coordinator 1
+   m_iM3_2InitialAttackDelaySeconds 45
+   m_iM3_2AttackCooldownSeconds 6
+   m_bRunM3_2Proof 0
+   m_fM3_3MinimumTargetDistance 200
+   m_fM3_3MaximumTargetDistance 325
+   m_fM3_3MinimumPlayerDistance 250
+   m_fM3_3VisibilityRelevanceDistance 900
+   m_fM3_3NavigationTolerance 100
+   m_iM3_3CandidateAttempts 64
+   m_bM3_3DetailedDiagnostics 0
+   m_bRunM3_3Proof 0
+   m_bRunM3_4Proof 0
+   m_iM3_5MediumPlayers 2
+   m_iM3_5HighPlayers 4
+   m_iM3_5EarlyMaximumPermille 334
+   m_iM3_5MidMaximumPermille 667
+   m_iM3_5MidDepthModifier 1
+   m_iM3_5LateDepthModifier 2
+   m_iM3_5FailedResultModifier 1
+   m_sM3_5LightPackage "LIGHT"
+   m_sM3_5StandardPackage "STANDARD"
+   m_sM3_5ReinforcedPackage "REINFORCED"
+   m_bRunM3_5Proof 0
+   m_bEnableM3_6Garrison 1
+   m_sM3_6GarrisonPackage "STANDARD"
+   m_fM3_6MinimumPlayerDistance 250
+   m_fM3_6VisibilityRange 900
+   m_fM3_6CleanupPlayerDistance 250
+   m_fM3_6PlacementRadius 55
+   m_iM3_6CandidateAttempts 32
+   m_bRunM3_6Proof 0
+   m_bEnableM3_7PlaytestTelemetry 1
+  }
+ }
+}

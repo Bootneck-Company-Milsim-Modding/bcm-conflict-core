@@ -1,0 +1,57 @@
+$grp GenericEntity : "{A13D000000000000}Prefabs/Systems/MilitaryBase/TB_PVE_M1_3_NoPlayerDeploymentBase.et" {
+ TB_M1_3_FORWARD_Base {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "US"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bIsControlPoint 0
+    m_bCanBeHQ 0
+    m_sBaseName "TB M1.3 Forward Base"
+    m_sBaseNameUpper "TB M1.3 FORWARD BASE"
+    m_sMapLocationName "TB M1.3 Forward Base"
+   }
+  }
+  coords 4680 28.281 11947.7
+  {
+   GenericEntity {
+    ID "5CCED514A5908822"
+    coords 0 0 12
+   }
+   GenericEntity {
+    ID "606078EE23DE48AC"
+    coords 0 0 14
+   }
+  }
+ }
+}
+
+$grp GenericEntity : "{A13D000000000000}Prefabs/Systems/MilitaryBase/TB_PVE_M1_3_NoPlayerDeploymentBase.et" {
+ TB_M1_4B_FORWARD_SOUTH {
+  components {
+   SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+    "faction affiliation" "US"
+   }
+   SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+    m_iRadius 150
+    m_bIsControlPoint 0
+    m_bCanBeHQ 0
+    m_sBaseName "TB M1.4B Forward South"
+    m_sBaseNameUpper "TB M1.4B FORWARD SOUTH"
+    m_sMapLocationName "TB M1.4B Forward South"
+   }
+  }
+  coords 9900 3 2300
+  {
+   GenericEntity {
+    ID "A14B000000000011"
+    coords 0 0 12
+   }
+   GenericEntity {
+    ID "A14B000000000012"
+    coords 0 0 14
+   }
+  }
+ }
+}

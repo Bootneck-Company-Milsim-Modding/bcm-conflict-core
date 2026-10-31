@@ -1,0 +1,13 @@
+GenericEntity : "{A13D000000000000}Prefabs/Systems/MilitaryBase/TB_PVE_M1_3_NoPlayerDeploymentBase.et" {
+ ID "A449100000000001"
+ components {
+  SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_iRadius 100
+   m_bIsControlPoint 0
+   m_bCanBeHQ 0
+  }
+ }
+}

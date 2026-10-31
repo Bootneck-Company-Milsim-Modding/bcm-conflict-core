@@ -1,0 +1,23 @@
+GenericEntity : "{1391CE8C0E255636}Prefabs/Systems/MilitaryBase/ConflictMilitaryBase.et" {
+ ID "A4F2100000000001"
+ components {
+  SCR_FactionAffiliationComponent "{5AFC974A2595F05D}" {
+   "faction affiliation" "USSR"
+  }
+  SCR_CampaignSeizingComponent "{5C66967235FBEEA3}" {
+   m_bIgnoreNonPlayableAttackers 0
+   m_bCapturingRequiresPlayer 0
+  }
+  SCR_CampaignMilitaryBaseComponent "{5AFC974A70234D1C}" {
+   m_bCanBeHQ 0
+   m_bIsControlPoint 0
+  }
+  TB_PVE_M1_3_NoPlayerDeploymentMarker "{A4F2100000000002}" {}
+ }
+ {
+  SCR_CampaignSpawnPointGroup {
+   ID "5C6696731466AF36"
+   m_bSpawnPointEnabled 0
+  }
+ }
+}

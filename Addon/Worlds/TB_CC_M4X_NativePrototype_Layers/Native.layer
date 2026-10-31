@@ -1,0 +1,52 @@
+RadioManagerEntity TB_CC_NATIVE_RADIO_MANAGER : "{B8E09FAB91C4ECCD}Prefabs/Systems/Radio/RadioManager.et" {
+ coords 0 0 0
+}
+SCR_LoadoutManager TB_CC_NATIVE_LOADOUT_MANAGER : "{58FBD035E53D95C1}Prefabs/MP/Campaign/CampaignLoadoutManager.et" {
+ coords 0 0 0
+}
+TB_CC_M4X_GameMode TB_CC_NATIVE_GAME_MODE : "{A4F2200000000000}Prefabs/MP/TB_CC_M4X_GameMode.et" {
+ coords 2000 20 2000
+}
+SCR_CampaignFactionManager : "{F1AC26310BAE3788}Prefabs/MP/Campaign/CampaignFactionManager.et" {
+ coords 2000 20 2000
+}
+SCR_AIWorld : "{01DC74137CFDDB6A}Prefabs/AI/SCR_AIWorld_Arland.et" {
+ components {
+  NavmeshWorldComponent "{5584F30E67F617AD}" {
+   NavmeshSettings NavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A2995A7E8BC2}" {
+     NavmeshFile "{E0E9D55644237D27}worlds/MP/Navmeshes/CTI_Campaign_Arland.nmn"
+    }
+   }
+  }
+  NavmeshWorldComponent "{5584F30EEFEE1223}" {
+   NavmeshSettings ChimeraNavmeshWorld "{50FC63BEBE3973C5}" {
+    NavmeshFilesConfig BaseNavmeshFilesConfig "{60B8A299509CF377}" {
+     NavmeshFile "{3B27B3547843CC74}worlds/MP/Navmeshes/CTI_Campaign_Arland_vehicles.nmn"
+    }
+   }
+  }
+ }
+ coords 0 0 0
+}
+GenericEntity TB_CC_NATIVE_CAMPAIGN {
+ components {
+  TB_CC_M4X_NativeCampaignComponent "{A4F2300000000001}" {
+   m_iAuthorityProofMode 0
+   m_iBLUFORVictoryHoldSeconds 300
+   m_iOPFORVictoryHoldSeconds 300
+   m_bEnableM3Coordinator 1
+   m_bEnableM3Garrison 1
+  }
+ }
+ coords 2000 20 2000
+}
+GenericEntity TB_CC_PROTO_MOB : "{A4F2000000000000}Prefabs/Systems/MilitaryBase/TB_CC_MOB.et" {
+ coords 1630 42.2812 2280
+}
+GenericEntity TB_CC_PROTO_OBJ_01 : "{A4F2100000000000}Prefabs/Systems/MilitaryBase/TB_CC_StrategicBase.et" {
+ coords 2030 67.4375 2280
+}
+GenericEntity TB_CC_PROTO_OBJ_02 : "{A4F2100000000000}Prefabs/Systems/MilitaryBase/TB_CC_StrategicBase.et" {
+ coords 2430 126.438 2280
+}
